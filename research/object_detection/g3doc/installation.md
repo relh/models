@@ -27,7 +27,7 @@ pip install tensorflow
 pip install tensorflow-gpu
 ```
 
-The remaining libraries can be installed on Ubuntu 16.04 using via apt-get:
+The remaining libraries can be installed on Ubuntu 16.04 via using apt-get:
 
 ``` bash
 sudo apt-get install protobuf-compiler python-pil python-lxml python-tk
@@ -85,7 +85,7 @@ the tensorflow/models/research/ directory:
 protoc object_detection/protos/*.proto --python_out=.
 ```
 
-**Note**: If you're getting errors while compiling, you might be using an incompatible protobuf compiler. If that's the case, use the following manual installation
+**Note**: If you're getting errors while compiling, you might be using an incompatible protobuf compiler. If that's the case, use the following manual installation.
 
 ## Manual protobuf-compiler installation and usage
 
